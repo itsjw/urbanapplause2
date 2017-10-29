@@ -1,0 +1,59 @@
+$card-padding: 20px;
+$card-margin: 30px;
+$card-bg-color: white;
+$card-border-color: #ccc;
+$highlight-color: #00d1b2;
+
+.work-preview-image {
+  img{
+    width: 400px;
+    margin: 0 auto;
+    vertical-align: center;
+  }
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+}
+.add-work-panel {
+  .inline-heading {
+    display: inline;
+  }
+  form {
+    margin: $card-padding
+  }
+  width: 100%;
+  border: 3px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: $card-margin;
+  display: inline-block;
+  background-color: #ddd;
+}
+
+.work-preview {
+  .work-preview-image{
+    float: left;
+  }
+  .work-preview-right {
+    ul {
+      list-style: none;
+      padding-left: 0px
+    }
+    width: 300px;
+    display: inline-block;
+    padding: $card-padding;
+    float: right;
+  }
+  .work-preview-footer {
+    width: 100%;
+    display: block;
+    clear: both;
+  }
+  width: 100%;
+  border: 1px solid $card-border-color;
+  border-radius: 3px;
+  margin-bottom: $card-margin;
+  display: inline-block;
+  background-color: $card-bg-color;
+}
+
+

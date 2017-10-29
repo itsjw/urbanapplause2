@@ -1,0 +1,30 @@
+button, .btn {
+  border-radius: .25em;
+  padding: .5rem 1rem;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4a4a4a;
+  width: auto;
+}
+
+.filled {
+  background-color: #00D1B2;
+  color: white;
+  border: 1px solid #00D1B2;
+}
+
+.filled:hover {
+  border: 1px solid #ccc;
+}
+
+button:hover, .btn:hover {
+  background-color: #ccc;
+}
+
